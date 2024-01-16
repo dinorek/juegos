@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Nazgul</title>
+    <link rel="stylesheet" href="juegos.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="menu container">
+            <a href="/index.html" class="logo">Tienda Nazgul</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="/index.html#todos">Juegos</a></li>
+                    <li><a href="/index.html#informacion">Información</a></li>
+                    <li><a href="/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1>Compra tu <span>juego</span> <br>favorito aquí</h1>
+                <p><b>Somos una tienda de venta de videojuegos de modalidad online. tenemos una gran variedad de juegos para consolas como ps4 - ps5 - xbox One - xbox Series <br>
+                  Contamos con juegos para distintas consolas y cada semana vamos renovando nuestro catálogo de videojuegos</b></p>
+                    <span><b>Un día sin jugar es un día perdido</b></span></p>
+                    <div class="butons">
+                        <a href="/index.html#informacion" class="btn-1">Información</a>
+                        <a href="/index.html#todos" class="btn-1">Juegos</a>
+                    </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="producto-content">
+        <div class="producto-1">
+            <img src="/imagenes/l5.jpg" alt="">
+            <div class="producto-txt">
+                <a href="/paginas/juego1.html#producto-content" class="btn-2"><b>Comprar</b></a></p>
+                <h3>Juego Cyberpunk 2077</h3>
+
+            
+            <h1>VideoJuego Cyberpunk 2077</h1>
+            <p><b><span id="titulo">Título:</span> Cyberpunk 2077<br>
+                <span id="formato">Formato: </span>Digital <br>
+                <span id="consola">Consola:</span> PlayStation4 , PlayStation5, Xbox One, Xbox Series <br>
+                <span id="idioma">Idioma:</span> Español</b><br>
+                <span id="precio"><b>Precio:</b></span><b>$8.000 CLP</b>
+                
+            </div>
+        </div>
+    </div>
+ 
+    <footer class="footer container">
+        <div class="link">
+            <a href="/index.html" class="logo">Tienda Nazgul</a>
+        </div>
+
+        <div class="link">
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/index.html#todos">Juegos</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="/client/js/index.js"></script>
+    <script src="/client/js/productos.js"></script>
+    <script src="https://sdk.mercadopago.com/js/v2"></script>
+    <script>
+        const mp = new MercadoPago("APP_USR-1fb0ca4d-45ae-4ecd-b4ed-cc6d86a2e9df");
+      </script>
+
+</body>
+</html>
