@@ -225,6 +225,8 @@ footer .logo:hover{
     color: #ffffff;
 }
 
+/* RESPONSIVE */ 
+
 @media (max-width:991px) {
     .menu {
         padding: 20px;
@@ -287,8 +289,31 @@ footer .logo:hover{
     }
 
     .producto-content {
-        grid-template-columns: repeat(1,1fr);
-        gap: 30px;
+        gap: 5px;
+        width: 100%;
+    }
+
+    .producto-content h1{
+       display: none;
+    }
+
+    .producto-content p{
+        margin-left: -650px;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .producto-content .btn-2{
+            margin-left: 270px;
+            margin-top: 50px;
+            font-size: 15px;
+        
+    }
+
+
+    .producto-content h3{
+        margin-top: -170px;
+        margin-left: -40px;
     }
 
     .producto-1 img{
@@ -316,10 +341,11 @@ footer .logo:hover{
         margin-top: 20px;
     }
 
+    .producto-content img {
+        width: 40%;
+    }
+
 }
-
-
-
 
 
 
